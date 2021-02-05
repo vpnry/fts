@@ -1,0 +1,7 @@
+{
+  "require": {
+    "php": "*",
+    "ext-sqlite3": "*",
+    "ext-mbstring": "*"
+  }
+}

@@ -1,0 +1,215 @@
+body {
+  padding: 10px;
+  background: cornsilk;
+}
+
+a {
+  text-decoration: none;
+}
+
+u {
+  text-decoration: none;
+  border-bottom: solid red 1px;
+}
+
+c {
+  font-size: x-large;
+  font-weight: bold;
+  color: darkgrey;
+}
+
+d {
+  font-size: small;
+  font-style: italic;
+}
+
+z {
+  font-size: small;
+  font-style: italic;
+  color: darkgrey;
+}
+
+.fm {
+  text-align: left;
+}
+
+#velthuis td {
+  border-bottom: solid grey 1px;
+}
+
+#uForm {
+  margin: 0 1%;
+  background: #cbd0d7;
+  text-align: center;
+  border: solid orange 1px;
+  border-radius: 15px;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Box-shadow_generator */
+  -webkit-box-shadow: -3px -8px 11px -1px #e1e2e8, 4px 8px 5px 2px #d3d1d3;
+  -moz-box-shadow: -3px -8px 11px -1px #e1e2e8, 4px 8px 5px 2px #d3d1d3;
+  box-shadow: -3px -8px 11px -1px #e1e2e8, 4px 8px 5px 2px #d3d1d3;
+}
+
+#allResults {
+  margin: 0 1%;
+}
+
+#noResult {
+  background: #cbd0d7;
+  margin: 0 1%;
+  text-align: left;
+  border: solid grey 1px;
+  border-radius: 15px;
+  padding: 20px;
+  -webkit-box-shadow: -3px -8px 11px -1px #e1e2e8, 4px 8px 5px 2px #d3d1d3;
+  -moz-box-shadow: -3px -8px 11px -1px #e1e2e8, 4px 8px 5px 2px #d3d1d3;
+  box-shadow: -3px -8px 11px -1px #e1e2e8, 4px 8px 5px 2px #d3d1d3;
+}
+
+.title {
+  border: solid #d3d1d3 1px;
+  border-radius: 15px;
+  background: #cbd0d7;
+  padding: 5px;
+}
+
+#uType {
+  width: 70%;
+  max-width: 70%;
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+  font-size: x-large;
+  border-radius: 10px;
+}
+
+#searchButton {
+  border-radius: 10px;
+  font-size: x-large;
+}
+
+#toggleButton {
+  background: #58e973;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.tCenter {
+  margin: 0 auto;
+}
+
+.tRight {
+  text-align: right;
+}
+
+.tLeft {
+  text-align: left;
+}
+
+.tRight2 {
+  text-align: right;
+  padding: 5px;
+}
+
+.tLeft2 {
+  text-align: left;
+  padding: 5px;
+}
+
+#clearText {
+  border: orange dashed 1px;
+  color: black;
+}
+
+.greyText {
+  color: grey;
+  font-style: italic;
+}
+
+.circleRadio input[type="radio"]:checked {
+  /* Radio element, when checked */
+  box-shadow: 0 -8px 6px -1px #4bd763, 0 8px 6px 0 #4bd763;
+}
+
+.hid {
+  display: none;
+}
+
+/**
+ * This .form-switch class is adapted from 
+ * Realistic iOS Switch In Pure CSS
+ * Link: https://www.cssscript.com/realistic-ios-switch-pure-css/
+ * Author: Pontus Nilsson
+ * License: MIT
+ */
+
+.form-switch {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.form-switch i {
+  position: relative;
+  display: inline-block;
+  margin-right: 0.5rem;
+  width: 46px;
+  height: 26px;
+  background-color: #e6e6e6;
+  border-radius: 23px;
+  vertical-align: text-bottom;
+  /* transition: all 0.3s linear; */
+}
+
+.form-switch i::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 42px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+  /* transition: all 0.25s linear; */
+}
+
+.form-switch i::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+  transform: translate3d(2px, 2px, 0);
+  /* transition: all 0.2s ease-in-out; */
+}
+
+.form-switch:active i::after {
+  width: 28px;
+  transform: translate3d(2px, 2px, 0);
+}
+
+.form-switch:active input:checked + i::after {
+  transform: translate3d(16px, 2px, 0);
+}
+
+.form-switch input {
+  display: none;
+}
+
+.form-switch input:checked + i {
+  background-color: #4bd763;
+}
+
+.form-switch input:checked + i::before {
+  transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0);
+}
+
+.form-switch input:checked + i::after {
+  transform: translate3d(22px, 2px, 0);
+}
