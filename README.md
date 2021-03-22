@@ -42,6 +42,19 @@ Used by permission of VRI gratefully acknowledged.
 ```
 
 
++ **PTS PED dictionary**
+
+PTS Pali-English Dictionary buddhadust_pts_ped.utf8.txt is obtained from [Buddhadust](http://buddhadust.net)
+
+
+```
+
+Corrected reprint © The Pali Text Society
+Commercial Rights Reserved
+Creative Commons Licence by-nc/3.0/
+
+```
+
 + **Indexed Data source**
 
 See the full file list in [README.html](lib/README.html)
@@ -49,7 +62,7 @@ See the full file list in [README.html](lib/README.html)
 | Name                     | Source                                                       |
 | ------------------------ | :----------------------------------------------------------- |
 | Pāḷi tipiṭaka text       | Divided into 2662 files by https://tipitaka.app (used digital pāḷi tipiṭaka text VRI version) |
-| Pāḷi Dictionary          | Siongui/data Github repository: <br/>en-su-PTS_P_E_Dictionary.tsv<br/>vi-su-Pali_Viet_Abhi_Terms.tsv<br/>vi-su-Pali_Viet_Dictionary.tsv<br/>vi-su-Pali_Viet_Vinaya_Terms.tsv |
+| Pāḷi Dictionary          | + PTS PED buddhadust_pts_ped.utf8.tx from [Buddhadust](http://buddhadust.net)<br/><br/>+ Siongui/data Github [repository](https://github.com/siongui/data): <br/>vi-su-Pali_Viet_Abhi_Terms.tsv<br/>vi-su-Pali_Viet_Dictionary.tsv<br/>vi-su-Pali_Viet_Vinaya_Terms.tsv |
 | Pa-Auk Meditation Manual | Some Pa-Auk Forest Monastery Meditation Manual eBooks [see file list](#appendix-data-file-list) |
 |  Tam Tạng Pāḷi Việt     | A Vietnamese translation of tipiṭaka project (currently it is not finished all yet.) from **Tam Tang Pali Viet**, most files are retrieved from: https://tamtangpaliviet.net/TTPV/TTPV_BanDich.htm |
 | Other databases | Some other miscellaneous databases like our personal e-books, Webster's Revised Unabridged Dictionary (1913) (this version is now in public domain) etc... which are big in file-size and may not be available on this online version. |
@@ -231,4 +244,3 @@ ttpv/
 
 May we all be able to understand and practise the Dhamma correctly, quickly.
 May you all be well and happy!
-
