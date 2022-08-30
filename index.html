@@ -26,7 +26,7 @@
 
 <body>
   <div id="uForm">
-    <form name="mainform" id="mainform" method="POST" action="https://sadhu.herokuapp.com/fts.php" enctype="multipart/form-data" style="padding: 5px;">
+    <form name="mainform" id="mainform" method="POST" action="https://dhammafts.onrender.com/fts.php" enctype="multipart/form-data" style="padding: 5px;">
 
       <b>Dhamma Full Text Search v1.1.0</b>
 
@@ -212,13 +212,13 @@
 
     <!-- Result will be written here ends -->
 
-    <p style="text-align: center; color: #ccc;"> Thanks Heroku for <a target="_blank" style="text-decoration: none; color: #ccc;" href="https://sadhu.herokuapp.com"> [this]</a> free back-end server.</p>
+    <p style="text-align: center; color: #ccc;"> Thanks Render.com for <a target="_blank" style="text-decoration: none; color: #ccc;" href="https://dhammafts.onrender.com"> [this]</a> free back-end server.</p>
   </div>
   <br>
 
   <script>
     // A call to wake up server
-    fetch("https://sadhu.herokuapp.com/fts.php", { method: "post", body: { pnry: "nbn" } })
+    fetch("https://https://dhammafts.onrender.com/fts.php", { method: "post", body: { pnry: "nbn" } })
       .then(res => res.text())
       .catch(errors => {
         console.log(errors);
