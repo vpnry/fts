@@ -217,12 +217,20 @@
   <br>
 
   <script>
-    // A call to wake up server
+    /*A call to wake up server
     fetch("https://dhammafts.onrender.com/fts.php", { method: "post", body: { pnry: "nbn" } })
       .then(res => res.text())
       .catch(errors => {
         console.log(errors);
-      });
+      });*/
+	  fetch("https://dhammafts.onrender.com", {
+  method: "GET",
+})
+  .then(res => alert(res.text()))
+  .catch(errors => {
+    console.log(errors);
+  });
+
 
   // Other code are moved to nbn.js
   </script>
